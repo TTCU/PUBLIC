@@ -19,9 +19,9 @@
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="Teams Call History" />
   <Description DefaultValue="Teams Call History"/>
-  <IconUrl DefaultValue="https://gscales.github.io/TeamsCallHistory/Images/Icon64.png"/>
+  <IconUrl DefaultValue="https://ttcu.github.io/PUBLIC/Microsoft-Teams-Call-History-Outlook-OWA-Addin/Images/Icon64.png"/>
 
-  <SupportUrl DefaultValue="http://www.msgdevelop.com" />
+  <SupportUrl DefaultValue="http://servicedesk.ttcu.com" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
 
   <!--End Basic Settings. -->
@@ -37,7 +37,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://gscales.github.io/TeamsCallHistory/MessageRead.html"/>
+        <SourceLocation DefaultValue="https://ttcu.github.io/PUBLIC/Microsoft-Teams-Call-History-Outlook-OWA-Addin/MessageRead.html"/>
         <RequestedHeight>450</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -96,13 +96,13 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://gscales.github.io/TeamsCallHistory/Images/Icon16.png"/>
-        <bt:Image id="icon32" DefaultValue="https://gscales.github.io/TeamsCallHistory/Images/Icon32.png"/>
-        <bt:Image id="icon80" DefaultValue="https://gscales.github.io/TeamsCallHistory/Images/Icon80.png"/>
+        <bt:Image id="icon16" DefaultValue="https://ttcu.github.io/PUBLIC/Microsoft-Teams-Call-History-Outlook-OWA-Addin/Images/Icon16.png"/>
+        <bt:Image id="icon32" DefaultValue="https://ttcu.github.io/PUBLIC/Microsoft-Teams-Call-History-Outlook-OWA-Addin/Images/Icon32.png"/>
+        <bt:Image id="icon80" DefaultValue="https://ttcu.github.io/PUBLIC/Microsoft-Teams-Call-History-Outlook-OWA-Addin/Images/Icon80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://gscales.github.io/TeamsCallHistory/Functions/FunctionFile.html"/>
-        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://gscales.github.io/TeamsCallHistory/MessageRead.html"/>
+        <bt:Url id="functionFile" DefaultValue="https://ttcu.github.io/PUBLIC/Microsoft-Teams-Call-History-Outlook-OWA-Addin/Functions/FunctionFile.html"/>
+        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://ttcu.github.io/PUBLIC/Microsoft-Teams-Call-History-Outlook-OWA-Addin/MessageRead.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue=" "/>
